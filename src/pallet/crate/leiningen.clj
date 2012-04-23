@@ -1,4 +1,4 @@
-(ns pallet.crate.lein
+(ns pallet.crate.leiningen
   (:require [pallet.action.remote-file :as remote-file]))
 
 (def default-install-path "/usr/local/bin")
