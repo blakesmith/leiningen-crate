@@ -2,7 +2,7 @@
   (:require [pallet.action.remote-file :as remote-file]))
 
 (def default-install-path "/usr/local/bin")
-(def script-url "https://raw.github.com/technomancy/leiningen/stable/bin/lein")
+(def script-url "https://raw.github.com/technomancy/leiningen/preview/bin/lein")
 
 (defn- install-script
   [session install-path]
